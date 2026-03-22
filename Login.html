@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>login-form</title>
+
+<style>
+body{
+  background-color: brown;
+  
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+    height: 100vh;             /* full screen height */
+    margin: 0;
+
+
+}
+.fs{
+  margin-top:50px;
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  background-color:lightblue;
+  width:400px;
+  height:240px;
+  margin:auto auto auto auto;
+  border-radius:10px;
+  box-shadow:3px 3px 3px 4px grey;
+}
+h1{
+padding-left:40px;
+
+}
+.em{
+
+height:20px;
+width:250px;
+border-radius:4px;
+}
+.pw{
+
+height:20px;
+width:250px;
+border-radius:4px;
+}
+.lg{
+
+height:30px;
+width:90px;
+border-radius:4px;
+
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 28px;
+    font-size: 29px;
+}
+.name {
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+
+</style>
+</head>
+
+<body>
+  
+  
+ <div class="header">
+    <div>Employee Management System</div>
+    <div class="name">Developed by Abhishek Kumar</div>
+</div>
+ 
+ <fieldset class="fs">
+ <form action="validation" method="post">
+ <h1>sign-in</h1>
+ <div class="main">
+ Email:<input class="em" type="email" name="empEmail"/><br><br>
+ Password:<input class="pw" type="password" name="empPassword"/><br><br>
+ 
+ <input class="lg" type="submit" value="Login"/>
+ 
+ 
+  </div>
+ </form>
+ </fieldset>
+
+
+</body>
+</html>
